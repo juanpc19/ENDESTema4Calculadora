@@ -4,9 +4,11 @@ public class Calculadora {
 	private int num1;
 	private int num2;
 	
+	//funcion calculadora sin parametros de entrada
 	public Calculadora() {
 	}
-
+	
+	//funcion calculadora con parametros de entrada para cambiar valor de atributos
 	public Calculadora(int num1, int num2) {
 		this.num1 = num1;
 		this.num2 = num2;
